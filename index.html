@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Processo seletivo MPX Brasil">
+  <title>teste MPX Brasil</title>
+  <!-- favicon-->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="img/favicon/favicon.ico">
+  <link rel="manifest" href="img/favicon/manifest.json">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- slick-->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" /> -->
+</head>
+
+<body>
+  <header class="container-fluid">
+    <nav class="container">
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav acessibilidade">
+            <li class="nav-item"><a href="#" class="nav-link">Aumentar fonte</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Alto contraste</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Mapa do site</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Fonte para dislexia</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Entenda a Acessibilidade</a></li>
+            <li class="nav-item-form">
+              <form action="#">
+                <div class="col-12">
+                  <div class="input-group">
+                    <input class="input" type="search" placeholder="Pesquise no Site" aria-label="Pesquisar" required>
+                    <button class="btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="ouvidoria">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div>
+              <img src="img/Ouvidoria.svg" alt="Logo da Empresa" class="logo">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="header-links text-md-right">
+              <figure class="figure">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+                  <path fill-rule="evenodd"
+                    d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+                </svg>
+                <figcaption class="figure-caption">Ouvidoria e-SIC</figcaption>
+              </figure>
+              <figure class="figure">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+                  <path fill-rule="evenodd"
+                    d="M18.05 12.359c3.61 0 6.499 2.746 6.499 6.18 0 1.208-.361 2.348-.997 3.295L28 26.091 25.993 28l-4.506-4.216c-.996.59-2.18.934-3.436.934-3.61 0-6.499-2.746-6.499-6.18 0-3.433 2.888-6.179 6.498-6.179zm0 2.746c-.957 0-1.875.362-2.552 1.006s-1.058 1.517-1.058 2.427c0 .911.38 1.784 1.058 2.428.677.644 1.595 1.006 2.553 1.006.957 0 1.875-.362 2.552-1.006s1.058-1.517 1.058-2.428c0-.91-.38-1.783-1.058-2.427-.677-.644-1.595-1.006-2.553-1.006zM5.777 16.48v2.746h2.888c.202 2.129 1.155 4.037 2.614 5.493h-8.39c-.766 0-1.5-.29-2.042-.804C.304 23.398 0 22.7 0 21.972V2.746C0 1.222 1.285 0 2.888 0h20.217c.766 0 1.5.29 2.042.804.542.515.846 1.214.846 1.942v11.027c-.846-1.275-2.018-2.326-3.407-3.054-1.39-.728-2.95-1.108-4.535-1.106-1.834 0-3.553.508-4.997 1.373H5.776v2.746h4.332c-.52.824-.953 1.758-1.198 2.747H5.776zm14.44-8.24V5.493H5.777v2.746h14.44z" />
+                </svg>
+                <figcaption class="figure-caption">Portal Transparência</figcaption>
+              </figure>
+              <figure class="figure">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" fill="currentColor" viewBox="0 0 28 24">
+                  <path fill-rule="evenodd"
+                    d="M.005 4.454L14 11.784l13.995-7.33c-.052-.934-.443-1.812-1.093-2.454-.65-.643-1.509-1-2.402-1h-21c-.893 0-1.753.357-2.402 1-.65.642-1.04 1.52-1.093 2.454z" />
+                  <path fill-rule="evenodd"
+                    d="M28 8.55l-14 7.333L0 8.55v10.783c0 .973.369 1.905 1.025 2.593C1.682 22.614 2.572 23 3.5 23h21c.928 0 1.819-.386 2.475-1.074.656-.688 1.025-1.62 1.025-2.593V8.55z" />
+                </svg>
+                <figcaption class="figure-caption text-center">Carta de Serviços ao</li>
+                  Cidadão</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu">
+
+
+      <nav class="navbar bg-body-tertiary d-md-none fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Logo do cliente</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo do cliente</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Prefeitura
+                  </a>
+                  <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item" href="#">Prefeitura 1</a></li>
+                    <li><a class="dropdown-item" href="#">Prefeitura 2</a></li>
+                    <li><a class="dropdown-item" href="#">Prefeitura 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Municipio
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Municipio 1</a></li>
+                    <li><a class="dropdown-item" href="#">Municipio 2</a></li>
+                    <li><a class="dropdown-item" href="#">Municipio 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Secretarias
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Secretarias 1</a></li>
+                    <li><a class="dropdown-item" href="#">Secretarias 2</a></li>
+                    <li><a class="dropdown-item" href="#">Secretarias 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">Notícias</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Imprensa
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Imprensa 1</a></li>
+                    <li><a class="dropdown-item" href="#">Imprensa 2</a></li>
+                    <li><a class="dropdown-item" href="#">Imprensa 3</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Contato
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Contato 1</a></li>
+                    <li><a class="dropdown-item" href="#">Contato 2</a></li>
+                    <li><a class="dropdown-item" href="#">Contato 3</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquise no site" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">pesquisar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <nav class="container d-md-block">
+        <div class="row">
+          <div class="col-12">
+            <ul class="navbar">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Prefeitura
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Prefeitura 1</a></li>
+                  <li><a class="dropdown-item" href="#">Prefeitura 2</a></li>
+                  <li><a class="dropdown-item" href="#">Prefeitura 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Municipio
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Municipio 1</a></li>
+                  <li><a class="dropdown-item" href="#">Municipio 2</a></li>
+                  <li><a class="dropdown-item" href="#">Municipio 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Secretarias
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Secretarias 1</a></li>
+                  <li><a class="dropdown-item" href="#">Secretarias 2</a></li>
+                  <li><a class="dropdown-item" href="#">Secretarias 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item "><a href="#" class="nav-link">Notícias</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Imprensa
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Imprensa 1</a></li>
+                  <li><a class="dropdown-item" href="#">Imprensa 2</a></li>
+                  <li><a class="dropdown-item" href="#">Imprensa 3</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Contato
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Contato 1</a></li>
+                  <li><a class="dropdown-item" href="#">Contato 2</a></li>
+                  <li><a class="dropdown-item" href="#">Contato 3</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="carousel">
+      <img src="img/vitrine.png" alt="">
+      <img src="img/vitrine.png" alt="">
+      <img src="img/vitrine.png" alt="">
+    </div>
+
+
+    <div class="servicos">
+      <div class="carousel-servicos container">
+
+        <figure class="figure-servicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+            <path fill-rule="evenodd"
+              d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+          </svg>
+          <figcaption class="figure-caption">Serviço 1</figcaption>
+        </figure>
+
+        <figure class="figure-servicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+            <path fill-rule="evenodd"
+              d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+          </svg>
+          <figcaption class="figure-caption">Serviço 2</figcaption>
+        </figure>
+
+        <figure class="figure-servicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+            <path fill-rule="evenodd"
+              d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+          </svg>
+          <figcaption class="figure-caption">Serviço 3</figcaption>
+        </figure>
+
+        <figure class="figure-servicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+            <path fill-rule="evenodd"
+              d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+          </svg>
+          <figcaption class="figure-caption">Serviço 4</figcaption>
+        </figure>
+
+        <figure class="figure-servicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+            <path fill-rule="evenodd"
+              d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+          </svg>
+          <figcaption class="figure-caption">Serviço 5</figcaption>
+        </figure>
+
+        <figure class="figure-servicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+            <path fill-rule="evenodd"
+              d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+          </svg>
+          <figcaption class="figure-caption">Serviço 6</figcaption>
+        </figure>
+
+        <figure class="figure-servicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+            <path fill-rule="evenodd"
+              d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+          </svg>
+          <figcaption class="figure-caption">Serviço 7</figcaption>
+        </figure>
+
+        <figure class="figure-servicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 28 28">
+            <path fill-rule="evenodd"
+              d="M25.667 2.333H2.333c-.619 0-1.212.273-1.65.76C.246 3.579 0 4.238 0 4.926v18.148c0 .688.246 1.347.683 1.833.438.486 1.031.76 1.65.76h23.334c.618 0 1.212-.274 1.65-.76.437-.486.683-1.145.683-1.833V4.926c0-.688-.246-1.347-.683-1.833-.438-.487-1.032-.76-1.65-.76zM9.333 6.223c.929 0 1.819.409 2.475 1.138.657.73 1.025 1.719 1.025 2.75s-.368 2.02-1.025 2.75c-.656.73-1.546 1.139-2.475 1.139-.928 0-1.818-.41-2.475-1.139-.656-.73-1.025-1.719-1.025-2.75s.37-2.02 1.025-2.75c.657-.729 1.547-1.139 2.475-1.139zm7 15.555h-14v-1.296c0-2.593 4.667-4.019 7-4.019 2.334 0 7 1.426 7 4.018v1.297zm4.492-5.185h1.925l1.75 2.592-2.333 2.593c-1.517-1.296-2.649-3.098-3.174-5.185-.21-.83-.326-1.699-.326-2.593 0-.894.116-1.763.326-2.593.525-2.1 1.657-3.888 3.174-5.185L24.5 8.815l-1.75 2.592h-1.925c-.257.817-.408 1.686-.408 2.593s.151 1.776.408 2.593z" />
+          </svg>
+          <figcaption class="figure-caption">Serviço 8</figcaption>
+        </figure>
+      </div>
+    </div>
+  </header>
+
+  <section class="h2">
+    <div class="container pt-3">
+      <div class="row px-1 mx-1 text-start">
+        <h2 class="px-1 mx-1">Notícias</h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="noticias">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <a href="#" class="nav-link">
+            <div class="card pb-4 card-noticias">
+
+              <img src="img/foto-center.svg" class="card-img-top zoom" alt="Ted Sarandos nomeado co-CEO da Netflix">
+              <span class="px-4 py-3">13/04/2020</span>
+              <div class="card-body">
+
+                <p class="card-text">Ted Sarandos nomeado co-CEO da Netflix</p>
+              </div>
+
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="nav-link">
+            <div class="card card-noticias">
+              <img src="img/foto-center (1).svg" class="card-img-top zoom"
+                alt="O aplicativo de meditação Calm está tendo seu próprio programa HBO Max cheio de celebridades">
+              <span class="px-4 py-3">14/04/2020</span>
+              <div class="card-body">
+                <p class="card-text">O aplicativo de meditação Calm está tendo seu próprio programa HBO Max cheio de
+                  celebridades</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="noticia-lista mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="card-group2 ">
+          <div class="card">
+            <img src="img/image.svg" class="card-img-top" alt="...">
+            <span class="px-4 py-3">15/04/2020</span>
+            <div class="card-body">
+              <p class="card-text">Spaceflight Inc. lança novo veículo de transferência orbital para foguete via
+                satélite
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/image (1).svg" class="card-img-top" alt="...">
+            <span class="px-4 py-3">16/04/2020</span>
+            <div class="card-body">
+              <p class="card-text">17 filmes icônicos com classificações surpreendentemente baixas</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/image (2).svg" class="card-img-top" alt="...">
+            <span class="px-4 py-3">16/04/2020</span>
+            <div class="card-body">
+              <p class="card-text">Por que as ações da Netflix caíram 10%</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/image (3).svg" class="card-img-top" alt="...">
+            <span class="px-4 py-3">17/04/2020</span>
+            <div class="card-body">
+              <p class="card-text">Apple abre outra megaloja na China em meio às críticas de William Barr</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/image.svg" class="card-img-top" alt="...">
+            <span class="px-4 py-3">15/04/2020</span>
+            <div class="card-body">
+              <p class="card-text">Spaceflight Inc. lança novo veículo de transferência orbital para foguete via
+                satélite
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/image (1).svg" class="card-img-top" alt="...">
+            <span class="px-4 py-3">16/04/2020</span>
+            <div class="card-body">
+              <p class="card-text">17 filmes icônicos com classificações surpreendentemente baixas</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/image (2).svg" class="card-img-top" alt="...">
+            <span class="px-4 py-3">16/04/2020</span>
+            <div class="card-body">
+              <p class="card-text">Por que as ações da Netflix caíram 10%</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/image (3).svg" class="card-img-top" alt="...">
+            <span class="px-4 py-3">17/04/2020</span>
+            <div class="card-body">
+              <p class="card-text">Apple abre outra megaloja na China em meio às críticas de William Barr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="veja text-center mt-4">
+      <a href="#">
+        <button type="button" class="btn btn-warning">Veja mais notícias</button>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="#"><img src="img/banner 01.svg" alt="banner1" class="img-fluid"></a>
+      </div>
+      <div class="col-md-6 mt-3 mt-md-0">
+        <a href="#"></a><img src="img/banner 02.svg" alt="banner2" class="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid ">
+
+    <div class="galeria mt-4">
+
+      <div class="container">
+        <div class="galeria-title">
+          <span>Galeria de Fotos</span>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="galeria-slide">
+
+          <div class="cards">
+            <a href="#">
+              <img src="img/galeria/galeria3.svg" alt="">
+              <span class="px-4 py-3">13/04/2020</span>
+              <strong class="text-white galeria-text">Como escolher o cliente certo para o seu negócio
+                fotográfico?</strong>
+            </a>
+          </div>
+
+          <div class="cards">
+            <a href="#">
+              <img src="img/galeria/galeria2.svg" alt="">
+              <span class="px-4 py-3">13/04/2020</span>
+              <strong class="text-white galeria-text">Como construir uma comunidade leal online e offline</strong>
+            </a>
+          </div>
+
+
+          <div class="cards">
+            <a href="#">
+              <img src="img/galeria/galeria1.svg" alt="">
+              <span class="px-4 py-3">13/04/2020</span>
+              <strong class="text-white galeria-text">Iniciando seu blog de viagem com o Vasco</strong>
+            </a>
+          </div>
+
+
+          <div class="cards">
+            <a href="#">
+              <img src="img/galeria/galeria3.svg" alt="">
+              <span class="px-4 py-3">13/04/2020</span>
+              <strong class="text-white galeria-text">Como escolher o cliente certo para o seu negócio
+                fotográfico?</strong>
+            </a>
+          </div>
+
+
+          <div class="cards">
+            <a href="#">
+              <img src="img/galeria/galeria2.svg" alt="">
+              <span class="px-4 py-3">13/04/2020</span>
+              <strong class="text-white galeria-text">Como construir uma comunidade leal online e offline</strong>
+            </a>
+          </div>
+
+
+          <div class="cards">
+            <a href="#">
+              <img src="img/galeria/galeria1.svg" alt="">
+              <span class="px-4 py-3">13/04/2020</span>
+              <strong class="text-white galeria-text">Iniciando seu blog de viagem com o Vasco</strong>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="galeria-botao text-center">
+        <a href="#">
+          <button type="button" class="btn btn-warning">Veja mais notícias</button>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <section class="h2">
+    <div class="container pt-3">
+      <div class="row px-1 mx-1 text-start">
+        <h2 class="px-1 mx-1">Calendário de Eventos</h2>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="calendario mt-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="card-group">
+          <div class="card">
+            <span class="px-4 span2020 color-text"><span class="span13"> 13 </span>de dezembro 2020</span>
+            <span class="px-4 color-text">A partir das 16:30</span>
+            <img src="img/image.svg" class="card-img-top" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Como escrever conteúdo sobre suas fotos
+              </p>
+              <small class="endereco">Rua das azaleias, 257 - Jardim Botânico - Sinop/MT</small>
+            </div>
+          </div>
+          <div class="card">
+            <span class="px-4 span2020 color-text"><span class="span13"> 13 </span>de dezembro 2020</span>
+            <span class="px-4 color-text">A partir das 16:30</span>
+            <img src="img/image (1).svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Onde expandir seu negócio como fotógrafo: site ou mídia social?</p>
+              <small class="endereco">Rua das azaleias, 257 - Jardim Botânico - Sinop/MT</small>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="px-4 span2020 color-text"><span class="span13"> 13 </span>de dezembro 2020</span>
+            <span class="px-4 color-text">A partir das 16:30</span>
+            <img src="img/image (2).svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Como um artista visual redefine o sucesso em design gráfico</p>
+              <small class="endereco">Rua das azaleias, 257 - Jardim Botânico - Sinop/MT</small>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="px-4 span2020 color-text"><span class="span13"> 13 </span>de dezembro 2020</span>
+            <span class="px-4 color-text">A partir das 16:30</span>
+            <img src="img/image (3).svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Comece um blog para atingir seu pico criativo</p>
+              <small class="endereco">Rua das azaleias, 257 - Jardim Botânico - Sinop/MT</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="calendario-botao text-center pt-4">
+      <a href="#">
+        <button type="button" class="btn btn-warning">Veja mais eventos</button>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col">
+        <section class="h2">
+          <div class="container pt-3">
+            <div class="row px-1 mx-1 text-start">
+              <h2 class="px-1 mx-1">Galeria de Vídeos</h2>
+            </div>
+          </div>
+        </section>
+        <div class="card obras rounded-5">
+          <iframe class="p-2 rounded-5" height="330"
+            src="https://www.youtube.com/embed/FGKbVfzMlrU?controls=0"></iframe>
+          <!-- <img src="img/galeria-obra.svg" class="card-img-top p-1" alt="..."> -->
+          <div class="card-body">
+            <p class="card-text text-black fs-4 fw-semibold">Como a escrita influencia sua marca pessoal?</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="calendario-botao text-center pt-4">
+            <a href="#">
+              <button type="button" class="btn btn-warning">Veja mais vídeos</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <section class="h2">
+          <div class="container pt-3">
+            <div class="row px-1 mx-1 text-start">
+              <h2 class="px-1 mx-1">Galeria de Obras</h2>
+            </div>
+          </div>
+        </section>
+        <div class="card obras rounded-5">
+
+          <img src="img/galeria-obra.svg" class="card-img-top p-1" alt="...">
+          <span class="px-4 py-3 tag">16/04/2020</span>
+          <div class="card-body">
+            <p class="card-text text-black fs-4 fw-semibold">Por que não usaos sites prontos</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="calendario-botao text-center pt-4">
+            <a href="#">
+              <button type="button" class="btn btn-warning">Veja mais vídeos</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-4">
+    <div id="parallax">
+      <div class="card rounded-bottom-4">
+        <div class="card-body">
+          <h5 class="card-title fs-1 fw-semibold">Conheça a <br><strong>Melhor Cidade do Brasil</strong></h5>
+          <p class="card-text ">É a sua cidade! Onde tem tudo o que você precisa.</p>
+          <div class="group-btn">
+            <div class="container text-center">
+              <button type="button" class="btn warning mt-4 ">Conheça a Cidade</button>
+              <button type="button" class="btn btn-info mt-4" disabled>Conheça a economia</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid mt-5">
+    <div class="back-footer footer rounded-4 text-white text-sub">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <h4>Horário de Atendimento</h4>
+            <p>Segunda à Sexta, 07h às 11h e das 13h às 17h</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <h4>Endereço</h4>
+            <p>Rua das azaleias, 257 - Jardim Botânico - Sinop/MT</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <h4>Fale com a Prefeitura</h4>
+            <p class="m-0">(66) 3535-3535</p>
+            <p>(66) 9 9999-9999</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid back-footer-mapa footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <h4>Imprensa</h4>
+              <p>Notícias</p>
+              <p>Agenda da Cidade</p>
+              <p>Galeria de Fotos</p>
+              <p>Galeria de Vídeos</p>
+              <h5>Contato</h5>
+              <p>Ouvidoria E-SIC</p>
+              <p>Telefones Úteis</p>
+            </div>
+            <div class="col-12 col-md-3">
+              <h4>Prefeitura</h4>
+              <p>Equipe do Governo</p>
+              <p>Fotos da Prefeitura</p>
+              <p>Galeria de Prefeitos</p>
+              <p>Conheça Nosso Prefeito</p>
+              <p>Conheça Nosso Vice Prefeito</p>
+              <p>Competência, estrutura e organizacional</p>
+            </div>
+            <div class="col-12 col-md-3">
+              <h4>Município</h4>
+              <p>Economia</p>
+              <p>Simbolos</p>
+              <p>Como Chegar</p>
+              <p>Galeria de Obras</p>
+              <p>História do Município</p>
+              <p>Hino, Bandeira e Brasão</p>
+              <p>Conheça Nosso Município</p>
+            </div>
+            <div class="col-12 col-md-3">
+              <h4>Secretarias</h4>
+              <p>Administração</p>
+              <p>Agricultura e Desenvolvimento Economico Sustentável</p>
+              <p>Assistência Social</p>
+              <p>Educação</p>
+              <p>Esportes</p>
+              <p>Finanças</p>
+              <p>Infraestrutura</p>
+              <p>Meio Ambiente, Turismo e Cultura</p>
+              <p>Planejamento, Tecnologia e Informática</p>
+              <p>Saúde</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-4">
+      <iframe class="rounded-bottom-4"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62471.877606757225!2d-55.5063804!3d-11.8707654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93a77fe80bc27573%3A0x1207800617733e83!2sSinop%2C%20MT!5e0!3m2!1spt-BR!2sbr!4v1679770003732!5m2!1spt-BR!2sbr"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="container">
+      <div class="row align-content-center rodape">
+        <div class="col-12 col-md-6 pt-2">
+          <p>©Ano - Nome do cliente - Todos os direitos reservados.</p>
+        </div>
+        <div class="col-12 col-md-6 end">
+          <img src="img/Logo MPX.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+
+  <!--- Jquery -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!--- Slick -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!--- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!--- Js -->
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <!--- Vlibras -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+
+</html>
