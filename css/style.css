@@ -2,7 +2,6 @@
   font-family: "Inter", sans-serif;
   padding: 0;
   margin: 0;
-  /* transition: transform .2s; */
   box-sizing: border-box;
 }
 
@@ -16,7 +15,8 @@ body {
   display: flex;
 }
 
-.acessibilidade .nav-item {
+.acessibilidade .nav-item,
+.acessibilidade .nav-item-form {
   display: flex;
   flex: auto;
   max-height: 38px;
@@ -30,8 +30,40 @@ body {
   background-color: #fafafa;
 }
 
+@media screen and (max-width: 1199px) {
+  .acessibilidade .nav-item {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .acessibilidade {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .acessibilidade .nav-item-form {
+    max-width: 100%;
+  }
+}
+
+.acessibilidade .nav-item:first-child {
+  margin-left: 0px;
+}
+
+.acessibilidade .nav-item:last-child {
+  margin-right: 0px;
+}
+
 .acessibilidade .nav-item:hover {
   background-color: #0277bd;
+  color: #000;
+}
+
+.acessibilidade .nav-item-form:hover {
+  background-color: transparent;
   color: #000;
 }
 
@@ -50,21 +82,6 @@ body {
   color: #000;
 }
 
-
-.acessibilidade .nav-item-form {
-  display: flex;
-  flex: auto;
-  max-height: 38px;
-  max-width: 166px;
-  cursor: pointer;
-  white-space: nowrap;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 12px;
-  border: solid 1px #eee;
-  background-color: #fafafa;
-}
-
 .acessibilidade .nav-item-form .input {
   height: auto;
   max-height: 38px;
@@ -79,7 +96,6 @@ body {
   width: 1%;
   margin-bottom: 0;
   font-weight: 600;
-
 }
 
 .acessibilidade .nav-item-form .input::placeholder {
@@ -159,6 +175,10 @@ body {
   border: solid 1px #eee;
   background-color: #eceff1;
   margin-bottom: 0;
+}
+
+.figure:last-child {
+  margin-right: 0px;
 }
 
 .figure:hover {
