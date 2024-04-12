@@ -181,6 +181,35 @@ body {
   margin-right: 0px;
 }
 
+@media screen and (max-width: 1199px) {
+  .figure {
+    margin-right: 10px;
+    margin-left: auto;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  .ouvidoria {
+    height: auto;
+  }
+
+  .figure {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .menu-logo {
+    margin-left: 40px;
+  }
+
+  .menu-logo .logo {
+    margin-top: 10px;
+  }
+
+}
+
 .figure:hover {
   cursor: pointer;
   border-radius: 24px;
