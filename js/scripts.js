@@ -117,8 +117,8 @@ $('.galeria-slide').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        // centerPadding: '40px',
-        slidesToShow: 1
+        centerPadding: '20px',
+        slidesToShow: 2
       }
     },
     {
@@ -126,7 +126,7 @@ $('.galeria-slide').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        // centerPadding: '40px',
+        // centerPadding: '20px',
         slidesToShow: 1
       }
     }

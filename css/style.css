@@ -537,10 +537,33 @@ section.h2 .container h2 {
   border: solid 1px #eeeeee;
   background-color: #ffffff;
   cursor: pointer;
+  height: 410px;
 }
 
 .noticias .card-noticias:hover p {
   color: #01579b;
+}
+
+@media screen and (max-width: 1199px) {
+
+  .noticias .card-noticias {
+    height: 380px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .noticias .card-noticias {
+    height: 310px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .noticias .card-noticias {
+    height: auto;
+  }
 }
 
 .noticias .card-text {
@@ -841,7 +864,7 @@ section.h2 .container h2 {
   /* padding: 20px; */
 }
 
-.card-group .card:last-child {
+.card-group .last-card {
   border-right: none;
 }
 
@@ -931,6 +954,40 @@ section.h2 .container h2 {
   height: 446px !important;
 }
 
+.youtube {
+  height: 330px !important;
+}
+
+@media screen and (max-width: 1199px) {
+  .obras {
+    height: 400px !important;
+  }
+
+  .youtube {
+    height: 280px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .obras {
+    height: 350px !important;
+  }
+
+  .youtube {
+    height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .obras {
+    height: auto !important;
+  }
+
+  .youtube {
+    height: 330px !important;
+  }
+}
+
 .card .obras:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -972,14 +1029,14 @@ section.h2 .container h2 {
 
 
 #parallax .card {
-  width: 45%;
+  width: 53%;
   height: 300px;
-  left: 46%;
+  left: 40%;
   border: none;
   border-radius: 0;
   background-color: #fafafa;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   border-bottom: 20px;
 }
 
@@ -1022,7 +1079,49 @@ section.h2 .container h2 {
   height: 48px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
+  #parallax .card {
+    width: 50%;
+    height: 300px;
+    left: 42%;
+    border: none;
+    border-radius: 0;
+    background-color: #fafafa;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 20px;
+  }
+
+  #parallax .card .card-title {
+    font-size: 30px !important;
+  }
+
+
+  #parallax .card .btn {
+    background-color: #ffd54f;
+    color: #331600;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: auto;
+    margin-top: 5px !important;
+  }
+
+  #parallax .card .btn.btn-info {
+    background-color: #039be5;
+    color: #001c33;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: auto;
+    margin-top: 10px !important;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
   #parallax .card {
     width: 50%;
     height: 300px;
@@ -1058,6 +1157,48 @@ section.h2 .container h2 {
     font-size: 16px;
     font-weight: bold;
     width: 200px;
+    height: auto;
+    margin-top: 10px !important;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  #parallax .card {
+    width: 50%;
+    height: auto;
+    left: 42%;
+    border: none;
+    border-radius: 0;
+    background-color: #fafafa;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 20px;
+  }
+
+  #parallax .card .card-title {
+    font-size: 25px !important;
+  }
+
+
+  #parallax .card .btn {
+    background-color: #ffd54f;
+    color: #331600;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    margin-top: 5px !important;
+  }
+
+  #parallax .card .btn.btn-info {
+    background-color: #039be5;
+    color: #001c33;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    width: auto;
     height: auto;
     margin-top: 10px !important;
   }
