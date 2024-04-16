@@ -2,7 +2,7 @@ $('.carousel').slick(
   {
     dots: true,
     autoplay: true,
-    infinite: false,
+    infinite: true,
     responsive: [
       {
         breakpoint: 1024,
