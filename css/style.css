@@ -63,13 +63,18 @@ body {
   color: #000;
 }
 
+.acessibilidade .nav-item:active {
+  background-color: #01579b;
+  color: #000;
+}
+
 .acessibilidade .nav-item-form:hover {
   background-color: transparent;
   color: #000;
 }
 
 .acessibilidade .nav-link {
-  color: #000;
+  color: #000 !important;
   font-size: 12px;
   font-weight: 600;
   align-items: center;
@@ -232,6 +237,21 @@ body {
   color: #01579b;
 }
 
+.figure:active {
+  border-radius: 24px;
+  border: solid 1px #eee;
+  background-color: #fff;
+  margin-bottom: 0;
+  color: #0277bd;
+  fill: #0277bd;
+}
+
+.figure:active .figure-caption {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0277bd;
+}
+
 .figure svg {
   margin-top: 15px;
   margin-bottom: 2px;
@@ -338,6 +358,33 @@ body {
   background-color: #ffffff;
   padding: 5px;
   border-radius: 10px;
+}
+
+.navbar .dropdown-menu {
+  background-color: #0277bd !important;
+  color: #ffffff !important;
+}
+
+.navbar .dropdown-item {
+  background-color: #0277bd !important;
+  color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+  background-color: #01579b !important;
+  color: #ffffff !important;
+}
+
+.dropdown-item:active {
+  background-color: #ffffff !important;
+  color: #01579b !important;
+}
+
+.navbar-nav .nav-link {
+  color: #000 !important;
+  font-size: 16px;
+  transition: all 0.2s;
+  padding: 5px;
 }
 
 /* carousel */
@@ -478,6 +525,22 @@ body {
   font-size: 16px;
   font-weight: 600;
   color: #01579b;
+}
+
+.carousel-servicos .figure-servicos:active {
+  cursor: pointer;
+  border-radius: 24px;
+  border: solid 1px #eee;
+  background-color: #fff;
+  margin-bottom: 0;
+  color: #0277bd;
+  fill: #0277bd;
+}
+
+.carousel-servicos .figure-servicos:active .figure-caption {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0277bd;
 }
 
 .carousel-servicos .figure-servicos svg {
@@ -764,6 +827,7 @@ section.h2 .container h2 {
   left: 120px;
   text-shadow: 1px 5px 14px rgba(79, 195, 247, 0.81);
   font-size: 32px;
+  border-radius: 88px;
 }
 
 .galeria-botao button {
@@ -1240,9 +1304,22 @@ section.h2 .container h2 {
   margin-bottom: 41px;
 }
 
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer p:hover {
+  text-decoration: underline;
+}
+
 .rodape {
   margin-top: 28px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+}
+
+.rodape p {
+  margin: 0;
 }
 
 
